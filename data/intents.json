@@ -1,0 +1,269 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Hello",
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "Is anyone there?",
+                "Hello there",
+                "Hi there"
+            ],
+            "responses": [
+                "Hello! I'm the DTE Rajasthan Student Assistance Chatbot. How can I help you today?",
+                "Hi there! I'm here to assist you with information about technical education in Rajasthan. What would you like to know?",
+                "Greetings! I'm your virtual assistant for technical education queries. How may I help you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Take care",
+                "See you",
+                "Talk to you later",
+                "I'm leaving now"
+            ],
+            "responses": [
+                "Goodbye! Feel free to come back if you have more questions.",
+                "Have a great day! Come back anytime for more assistance.",
+                "Bye! If you have more questions later, I'll be here to help."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thanks for the help",
+                "I appreciate it",
+                "Thanks a lot"
+            ],
+            "responses": [
+                "You're welcome! Is there anything else I can help you with?",
+                "Happy to help! Let me know if you need any other information.",
+                "My pleasure. Feel free to ask if you have more questions."
+            ]
+        },
+        {
+            "tag": "admissions",
+            "patterns": [
+                "How can I apply for admission?",
+                "Tell me about the admission process",
+                "What's the procedure for admission?",
+                "Admission details",
+                "How to get admission",
+                "When does admission start?",
+                "What are the admission dates?",
+                "I want to apply for engineering",
+                "How to apply for BTech",
+                "MTech admission process",
+                "Diploma course admission"
+            ],
+            "responses": [
+                "The general admission process for technical education in Rajasthan involves an entrance examination followed by counseling. The specific process may vary depending on the course you're interested in.",
+                "Technical education admissions in Rajasthan typically require qualifying an entrance exam like REAP for engineering or RMCAAP for MCA courses. After that, there's a counseling process based on merit.",
+                "For most technical courses, you need to first register online on the DTE portal, then apply for the specific course, appear for entrance exams if applicable, and attend counseling sessions.",
+                "To apply for technical education in Rajasthan:\n- Register on https://dteapp.hte.rajasthan.gov.in\n- Apply to the course (e.g., B.Tech via REAP, Diploma via merit)\n- Upload documents, pay fee\n- Participate in counseling & seat allotment"
+            ]
+        },
+        {
+            "tag": "courses",
+            "patterns": [
+                "What courses are offered?",
+                "Tell me about the available courses",
+                "Course information",
+                "What can I study?",
+                "Available programs",
+                "List of courses",
+                "Which engineering branches are available?",
+                "Do you offer computer science?",
+                "Is mechanical engineering available?",
+                "What about diploma courses?",
+                "Do you have management courses?"
+            ],
+            "responses": [
+                "The Department of Technical Education, Rajasthan offers various courses including B.Tech, M.Tech, BCA, MCA, MBA, Pharmacy, Architecture, and Diploma programs in multiple disciplines.",
+                "Technical education in Rajasthan includes undergraduate and postgraduate programs in engineering, computer applications, pharmacy, architecture, and management, along with diploma courses.",
+                "We offer a wide range of technical courses including various engineering branches (CS, IT, EC, EE, ME, CE), pharmacy, architecture, management, and more at diploma, undergraduate, and postgraduate levels."
+            ]
+        },
+        {
+            "tag": "scholarships",
+            "patterns": [
+                "What scholarships are available?",
+                "Financial aid information",
+                "Tell me about scholarships",
+                "How can I get a scholarship?",
+                "Are there any scholarships for SC/ST students?",
+                "Merit scholarships",
+                "Scholarships for girls",
+                "Sports scholarship",
+                "Minority scholarship",
+                "Financial assistance for students"
+            ],
+            "responses": [
+                "The Department offers various scholarships including merit-based scholarships, scholarships for SC/ST students, minority scholarships, and scholarships for female students. The eligibility criteria. The Department offers various scholarships including merit-based scholarships, scholarships for SC/ST students, minority scholarships, and scholarships for female students. The eligibility criteria varies for each.",
+                "There are multiple scholarship options available, including government scholarships (like Post-Matric Scholarship), institutional scholarships based on merit, and special scholarships for reserved categories and female students.",
+                "Scholarships are offered based on various criteria such as academic merit, family income, category (SC/ST/OBC), gender, and more. Each scholarship has specific eligibility requirements and application processes."
+            ]
+        },
+        {
+            "tag": "events",
+            "patterns": [
+                "Are there any upcoming events?",
+                "Tell me about technical fests",
+                "Any workshops coming up?",
+                "Seminar information",
+                "When is the next college event?",
+                "Conference details",
+                "Cultural events",
+                "Sports competitions",
+                "Any hackathons planned?",
+                "Exhibition dates"
+            ],
+            "responses": [
+                "The Department organizes various events throughout the academic year including technical fests, workshops, seminars, cultural events, and sports competitions. Let me check for specific upcoming events.",
+                "Technical institutions in Rajasthan host numerous events including technical symposiums, cultural festivals, sports meets, and workshop series. I can provide details about specific upcoming events if you're interested.",
+                "There are regular events organized at technical institutions, including expert lectures, industrial visits, technical competitions, cultural programs, and sports tournaments. Let me find information about current or upcoming events for you."
+            ]
+        },
+        {
+            "tag": "results",
+            "patterns": [
+                "When will results be announced?",
+                "How can I check my results?",
+                "Result information",
+                "Exam results",
+                "Where to find semester results",
+                "Have the results been declared?",
+                "Result website",
+                "How to download marksheet",
+                "BTech results",
+                "Diploma exam results",
+                "Revaluation process"
+            ],
+            "responses": [
+                "Exam results are typically announced on the official DTE website or your institution's portal. You can check results by entering your roll number or registration number on the designated portal.",
+                "Results are usually published on the official website of the Board of Technical Education, Rajasthan. You'll need your roll number to access your results. Specific announcement dates vary by course and exam cycle.",
+                "You can check your results on the official examination portal using your roll number. Results are generally announced within 4-6 weeks after the completion of exams, but this can vary."
+            ]
+        },
+        {
+            "tag": "grievance",
+            "patterns": [
+                "How to file a complaint?",
+                "Grievance redressal procedure",
+                "I have a problem with my college",
+                "Where to report ragging?",
+                "Harassment complaint",
+                "Issue with faculty",
+                "Problem with fees",
+                "Who to contact for problems?",
+                "Help with college issues",
+                "Examination related problems"
+            ],
+            "responses": [
+                "For grievance redressal, you can approach your institution's grievance cell first. If the issue remains unresolved, you can escalate it to the Department of Technical Education through their official portal or helpline.",
+                "The grievance redressal mechanism includes institution-level committees, anti-ragging cells, and women's grievance cells. For specific issues, please provide more details so I can guide you to the appropriate authority.",
+                "To file a grievance, first approach your institution's grievance committee. For serious matters or if you're not satisfied with the resolution, you can contact the DTE grievance cell through their online portal or helpline number."
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "How to contact DTE?",
+                "Contact information",
+                "Email address",
+                "Phone number",
+                "Office address",
+                "Helpline number",
+                "Website",
+                "Where is the office located?",
+                "Contact details",
+                "How to reach DTE Rajasthan"
+            ],
+            "responses": [
+                "You can contact the Department of Technical Education, Government of Rajasthan at their office in Jodhpur. Their helpline number is 0291-2434271, and email is info.dte@rajasthan.gov.in. Their website is https://dte.rajasthan.gov.in/",
+                "DTE Rajasthan can be contacted at their head office: W-6, Gaurav Path, Residency Road, Jodhpur - 342032. Phone: 0291-2434271, Email: info.dte@rajasthan.gov.in",
+                "For contacting DTE Rajasthan, you can call 0291-2434271 or visit their office at W-6, Gaurav Path, Residency Road, Jodhpur. Alternatively, you can visit their website at https://dte.rajasthan.gov.in/ for more information."
+            ]
+        },
+        {
+            "tag": "hostel",
+            "patterns": [
+                "Hostel facilities",
+                "Accommodation information",
+                "How to apply for hostel?",
+                "Hostel fees",
+                "Is hostel available?",
+                "Boys hostel",
+                "Girls hostel",
+                "Hostel admission process",
+                "Hostel rules",
+                "Room sharing details"
+            ],
+            "responses": [
+                "Most technical institutions in Rajasthan offer hostel facilities for both boys and girls. The application process, fees, and allocation vary by institution. It's advisable to apply for hostel accommodation as soon as you get admission.",
+                "Hostel facilities are available at many technical institutions with separate hostels for boys and girls. Rooms are typically shared (2-4 students per room) and include basic amenities. Specific details vary by institution.",
+                "For hostel facilities, you need to apply separately after securing admission. The allocation is usually based on distance from home, category, and availability. Fees vary by institution and type of accommodation."
+            ]
+        },
+        {
+            "tag": "placements",
+            "patterns": [
+                "Tell me about placements",
+                "Job opportunities",
+                "Placement statistics",
+                "Which companies visit campus?",
+                "Average salary package",
+                "Highest salary offered",
+                "Placement cell",
+                "Internship opportunities",
+                "Campus recruitment",
+                "How is the placement record?"
+            ],
+            "responses": [
+                "Technical institutions in Rajasthan have dedicated placement cells that coordinate with various companies for campus recruitments. The placement statistics vary by institution and course, with engineering streams like Computer Science and IT typically seeing higher placement rates.",
+                "Placement opportunities depend on the institution's reputation, location, and industry connections. Leading technical institutions have tie-ups with national and multinational companies across various sectors for both internships and final placements.",
+                "Most recognized technical institutions offer placement assistance through their Training and Placement Cells. Companies from IT, manufacturing, construction, pharmaceuticals, and other sectors regularly conduct campus drives. Placement rates and salary packages vary by institution and discipline."
+            ]
+        },
+        {
+            "tag": "fees",
+            "patterns": [
+                "What are the fees?",
+                "Fee structure",
+                "How much does it cost?",
+                "Tuition fees",
+                "Annual fees",
+                "Fee payment process",
+                "Scholarship to cover fees",
+                "When to pay fees",
+                "Can I pay fees in installments?",
+                "Hostel fees"
+            ],
+            "responses": [
+                "Fee structures vary based on the course, institution, and management (government/private). Government institutions generally have lower fees compared to private ones. Specific fee details are available on the respective institution's website or prospectus.",
+                "The fee for technical courses varies widely. Government college fees are around Rs. 30,000-60,000 per year for most courses, while private institutions may charge Rs. 75,000-2,00,000 per year. Additional fees for hostels, transportation, etc. are separate.",
+                "Fees depend on various factors including the type of institution (government/private/aided), course, and category of admission. Most institutions require fees to be paid at the beginning of each semester. Some offer installment options and fee waivers for economically disadvantaged students."
+            ]
+        },
+        {
+            "tag": "fallback",
+            "patterns": [],
+            "responses": [
+                "I'm not sure I understand. Could you rephrase your question?",
+                "I don't have information on that specific topic. Could you ask something related to admissions, courses, scholarships, events, results, or grievance redressal?",
+                "I'm still learning and may not have information on that. Please ask about technical education services provided by the Department of Technical Education, Rajasthan."
+            ]
+        }
+    ]
+}

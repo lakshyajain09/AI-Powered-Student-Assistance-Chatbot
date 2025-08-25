@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Assistance Chatbot - DTE Rajasthan</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header-content">
+          <img
+            src="{{ url_for('static', filename='images/dte_logo.png') }}"
+            alt="DTE Rajasthan Logo"
+            class="logo"
+          />
+          <div>
+            <h1>AI-Powered Student Assistance Chatbot</h1>
+            <h2>Department of Technical Education, Government of Rajasthan</h2>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="welcome-card">
+          <h3>Welcome to Student Support</h3>
+          <p>Get instant answers to your questions about:</p>
+          <ul>
+            <li>Admissions</li>
+            <li>Course details</li>
+            <li>Scholarships</li>
+            <li>Upcoming events</li>
+            <li>Exam results</li>
+            <li>Grievance redressal</li>
+          </ul>
+          <a href="{{ url_for('chat') }}" class="btn-primary">Start Chatting</a>
+        </div>
+      </main>
+
+      <footer>
+        <p>
+          Developed by: Gunjan Nama, Ritu Sharma, Naham Hussain, Lakshya Jain
+        </p>
+        <p>
+          Under guidance of Mr. Amit Mithal, Associate Professor, Department of
+          CSE
+        </p>
+        <p>Jaipur Engineering College and Research Centre</p>
+      </footer>
+    </div>
+  </body>
+</html>

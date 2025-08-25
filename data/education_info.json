@@ -1,0 +1,183 @@
+{
+    "courses": [
+        {
+            "name": "Bachelor of Technology (B.Tech)",
+            "branches": ["Computer Science", "Information Technology", "Electronics & Communication", "Electrical", "Mechanical", "Civil"],
+            "duration": "4 years",
+            "eligibility": "10+2 with Physics, Chemistry, and Mathematics with minimum 45% marks (40% for reserved categories)",
+            "admission_process": "Through REAP (Rajasthan Engineering Admission Process) based on JEE Main score or 12th board percentage"
+        },
+        {
+            "name": "Master of Technology (M.Tech)",
+            "branches": ["Computer Science", "Digital Communication", "Power Systems", "Structural Engineering", "Manufacturing Systems"],
+            "duration": "2 years",
+            "eligibility": "Bachelor's degree in relevant engineering discipline with minimum 55% marks",
+            "admission_process": "Through RMCAAP (Rajasthan MCA Admission Process) based on GATE score or state-level entrance test"
+        },
+        {
+            "name": "Diploma in Engineering",
+            "branches": ["Computer Science", "Electronics", "Electrical", "Mechanical", "Civil", "Automobile"],
+            "duration": "3 years",
+            "eligibility": "10th pass with minimum 35% marks",
+            "admission_process": "Through centralized admission process based on 10th marks or entrance test"
+        },
+        {
+            "name": "Bachelor of Computer Applications (BCA)",
+            "duration": "3 years",
+            "eligibility": "10+2 with minimum 45% marks",
+            "admission_process": "Based on 12th marks or entrance test conducted by the institution"
+        },
+        {
+            "name": "Master of Computer Applications (MCA)",
+            "duration": "2 years",
+            "eligibility": "Bachelor's degree with Mathematics at 10+2 level or graduate level with minimum 50% marks",
+            "admission_process": "Through RMCAAP based on state-level entrance test"
+        },
+        {
+            "name": "Master of Business Administration (MBA)",
+            "specializations": ["Finance", "Marketing", "Human Resources", "Operations", "IT"],
+            "duration": "2 years",
+            "eligibility": "Bachelor's degree in any discipline with minimum 50% marks",
+            "admission_process": "Through CMAT/MAT/RMAT or institution-level entrance test followed by GD/PI"
+        }
+    ],
+    "scholarships": [
+        {
+            "name": "Post-Matric Scholarship for SC/ST/OBC",
+            "type": "SC/ST/OBC",
+            "details": "Covers tuition fees and maintenance allowance for students belonging to SC/ST/OBC categories with family income below the specified limit",
+            "how_to_apply": "Apply online through the Scholarship Portal of Rajasthan Government (scholarship.rajasthan.gov.in)"
+        },
+        {
+            "name": "Chief Minister's Higher Education Scholarship",
+            "type": "Merit",
+            "details": "For meritorious students with at least 75% marks in qualifying examination. Provides Rs. 15,000 to Rs. 25,000 per annum",
+            "how_to_apply": "Through the institution after admission"
+        },
+        {
+            "name": "Mukhyamantri Balika Protsahan Yojana",
+            "type": "Female",
+            "details": "Special scholarship for girl students pursuing technical education with Rs. 20,000 per annum",
+            "how_to_apply": "Through institution after admission"
+        },
+        {
+            "name": "Minority Scholarship",
+            "type": "Minority",
+            "details": "For students belonging to notified minority communities with family income below Rs. 2.5 lakhs per annum",
+            "how_to_apply": "Apply online through National Scholarship Portal (scholarships.gov.in)"
+        },
+        {
+            "name": "Sports Scholarship",
+            "type": "Sports",
+            "details": "For students who have represented at state or national level sports competitions. Amount varies based on achievement level",
+            "how_to_apply": "Apply through Department of Sports, Govt. of Rajasthan"
+        }
+    ],
+    "results": [
+        {
+            "type": "BTech Semester",
+            "period": "1",
+            "date": "July 15, 2024",
+            "how_to_check": "bte.rajasthan.gov.in using roll number"
+        },
+        {
+            "type": "BTech Semester",
+            "period": "2",
+            "date": "July 20, 2024",
+            "how_to_check": "bte.rajasthan.gov.in using roll number"
+        },
+        {
+            "type": "BTech Semester",
+            "period": "3",
+            "date": "July 25, 2024",
+            "how_to_check": "bte.rajasthan.gov.in using roll number"
+        },
+        {
+            "type": "BTech Semester",
+            "period": "4",
+            "date": "August 1, 2024",
+            "how_to_check": "bte.rajasthan.gov.in using roll number"
+        },
+        {
+            "type": "Diploma Semester",
+            "period": "Final",
+            "date": "August 10, 2024",
+            "how_to_check": "bte.rajasthan.gov.in using roll number"
+        },
+        {
+            "type": "MCA Semester",
+            "period": "2",
+            "date": "July 30, 2024",
+            "how_to_check": "bte.rajasthan.gov.in using roll number"
+        }
+    ],
+    "events": [
+        {
+            "name": "TechFest 2024",
+            "type": "Technical",
+            "date": "September 15-17, 2024",
+            "venue": "Jaipur Engineering College",
+            "details": "Annual technical festival featuring competitions, workshops, and exhibits"
+        },
+        {
+            "name": "AI & Machine Learning Workshop",
+            "type": "Workshop",
+            "date": "August 25, 2024",
+            "venue": "Virtual (Online)",
+            "details": "Hands-on workshop on AI and ML applications in industry"
+        },
+        {
+            "name": "National Conference on Emerging Technologies",
+            "type": "Conference",
+            "date": "October 10-12, 2024",
+            "venue": "Rajasthan Technical University, Kota",
+            "details": "Research conference with paper presentations and keynote speeches"
+        },
+        {
+            "name": "Cultural Extravaganza",
+            "type": "Cultural",
+            "date": "November 5-7, 2024",
+            "venue": "Various Technical Institutions",
+            "details": "Inter-college cultural competition with music, dance, and theatrical performances"
+        },
+        {
+            "name": "Sports Meet 2024",
+            "type": "Sports",
+            "date": "December 1-5, 2024",
+            "venue": "Sports Complex, Jodhpur",
+            "details": "Annual inter-college sports competition"
+        }
+    ],
+    "grievances": [
+        {
+            "type": "Ragging",
+            "contact": "Anti-Ragging Committee of respective institution and Anti-Ragging Helpline: 1800-180-5522",
+            "procedure": "Submit a written complaint to the Anti-Ragging Committee. For urgent matters, call the helpline. You can also file a complaint online at antiragging.in"
+        },
+        {
+            "type": "Harassment",
+            "contact": "Women's Grievance Cell / Internal Complaints Committee of the institution",
+            "procedure": "Submit a written complaint to the committee chairperson. Confidentiality will be maintained throughout the investigation process"
+        },
+        {
+            "type": "Fees",
+            "contact": "Accounts Department of the institution followed by DTE Fee Grievance Cell: 0291-2434271",
+            "procedure": "First approach the institution's accounts department. If unresolved, file a complaint with DTE's fee grievance cell with all supporting documents"
+        },
+        {
+            "type": "Examination",
+            "contact": "Examination Controller of the institution and subsequently RTU Exam Grievance Cell: rtu.complaints@gmail.com",
+            "procedure": "Submit application to the examination controller within 15 days of result declaration. For revaluation, a separate application with fee is required"
+        },
+        {
+            "type": "Faculty",
+            "contact": "Head of Department, followed by Principal/Director of the institution",
+            "procedure": "First discuss with the HOD. If unresolved, submit a written complaint to the Principal/Director. For serious issues, approach DTE grievance cell"
+        },
+        {
+            "type": "Facilities",
+            "contact": "Administrative Officer of the institution",
+            "procedure": "Submit a written complaint to the Administrative Officer. For hostels, contact the Hostel Warden first"
+        }
+    ]
+}
