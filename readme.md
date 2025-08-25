@@ -7,6 +7,7 @@ A Flask-based chatbot application that provides instant responses to student que
 This chatbot uses Natural Language Processing (NLP) and Machine Learning to understand user queries and provide accurate responses about admissions, courses, scholarships, events, results, and grievance redressal procedures.
 
 ## Team Members
+
 1. Gunjan Nama (22EJCCS210)
 2. Ritu Sharma (21EJCCS189)
 3. Naham Hussain (22EJCCS216)
@@ -37,23 +38,27 @@ Project Guide: Mr. Amit Mithal, Associate Professor, Department of CSE
 ## Installation & Setup
 
 1. Clone the repository:
+
    ```
-   git clone https://github.com/yourusername/student-assistance-chatbot.git
-   cd student-assistance-chatbot
+   git clone https://github.com/lakshyajain09/ai-powered-student-assistance-chatbot.git
+   cd ai-powered-student-assistance-chatbot
    ```
 
 2. Create a virtual environment:
+
    ```
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
 3. Install dependencies:
+
    ```
    pip install -r requirements.txt
    ```
 
 4. Run the application:
+
    ```
    python app.py
    ```
